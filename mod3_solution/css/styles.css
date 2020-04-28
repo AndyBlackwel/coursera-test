@@ -21,7 +21,7 @@ Body {
   font-weight: bold;
   margin-top: 0;
   margin-bottom: 0;
-  line-height: .75;
+  line-height: .01;
   color: #000000;
 }
 
@@ -69,4 +69,17 @@ p{
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+
+@media (min-width: 768px) {
+  #header-nav {
+    border-radius: 0;
+    border: 0;
+    background-color: gray;
+    padding: 20px 0 20px 0;
+  }
+  .navbar-brand h1 {
+    font-size: 2em;
+  }
+
 }
